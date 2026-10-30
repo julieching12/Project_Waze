@@ -46,7 +46,7 @@ null_data['device'].value_counts(normalize=True)
 df['device'].value_counts(normalize=True)
 
 # Calculate counts of churned vs. retained
-#df.groupby(['label']).count()[['ID']]   #count() counts for all columns, while value_counts() only count by categoried values
+#df.groupby(['label']).count()[['ID']] 
 #df['label'].value_counts(normalize=True)*100
 
 print(df['label'].value_counts())
